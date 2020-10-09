@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+     <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/camera_action"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera" />
+    <item
+        android:id="@+id/gallery_action"
+        android:icon="@drawable/ic_gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/settings_action"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+    <item
+        android:id="@+id/vpn_action"
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="Vpn" />
+     </group>
+</menu>
